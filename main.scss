@@ -1,0 +1,40 @@
+$theme-colors:(
+    "primary": #2E4571
+);
+
+.jumbotron{
+    padding-top: 40px solid rgb(219,219,219);
+}
+body { padding-top: 70px;
+    
+   
+}
+
+.fa{
+    font-size: 50px;
+}
+
+
+.card-img-bottom {
+    color: #fff;
+    height: 20rem;
+    background: url(img/jordan.jpg) center no-repeat;
+    background-size: cover;
+  }
+
+  .card-block{
+      padding-top: 40px;
+  }
+
+  .card:hover{
+      -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+      -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+      box-shadow: 1px 9px 40px -12px rgba(0,0,0,0.75);
+  }
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.main-form{
+    width: 450px;
+    margin: auto;
+}
